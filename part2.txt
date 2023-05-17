@@ -1,0 +1,14 @@
+Test Case 1: crash1.gft
+Bug Triggered: Segmentation fault
+Explanation: The test case includes an invalid record type that the program is not designed to handle, causing it to crash with an "segmentation fault" error.
+
+
+
+Test Case 2: crash2.gft
+Bug Triggered: Memory Overflow
+Explanation: The test case includes a large data record that exceeds the memory allocation for the program, causing it to crash with a memory overflow error.
+
+ 
+Test Case 3: hang.gft
+Bug Triggered: Infinite Loop
+Explanation: The test case includes a record with an invalid loop count in the "animation" record type, causing the program to loop indefinitely and never stop, resulting in a "hang" state.

@@ -1,0 +1,9 @@
+part 3
+
+fuzzer 1 :
+
+the fuzzer tried to overflow the memory of the mptr to crash the program. 
+
+fuzzer 2 :
+
+the fuzzer causes the arg2 to point to an out of bounds memory to cause it to do segmantation fault.
